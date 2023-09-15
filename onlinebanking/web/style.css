@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	color:#cc0c0c;
+	background:#e70707 url(c:\Users\Monic\Downloads\stephen-phillips-hostreviews-co-uk-em37kS8WJJQ-unsplash.jpg)
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+
+ul{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+	font-size:0;
+	line-height:0;
+}
+
+
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+.more
+{
+font:normal 11px/18px Arial, Helvetica, sans-serif;
+color:#00d02d;
+text-decoration:none;
+padding-left:230px;
+}
+.style1{color:#048564;}
+/*------------------------------------------------body--------------------*/
+
+#top_links
+{
+margin:0 auto;
+padding:0px;
+width:900px;
+height:40px;
+}
+#top_linksin
+{
+padding:10px 0 0 0;
+width:310px;
+height:18px;
+float:right;
+}
+
+#top_linksin ul
+{
+list-style:none;
+margin:0 0 0 40px;
+}
+#top_linksin ul li
+{
+font:normal 11px/10px Arial, Helvetica, sans-serif;
+color:#885555;
+border-right:#7f7f7f 1px solid;
+padding:0 15px;
+float:left;
+}
+#top_linksin ul li a
+{
+text-decoration:none;
+display:block;
+color:#7f7f7f;
+}
+#top_linksin ul li a:hover
+{
+text-decoration:none;
+display:block;
+color:#FFFFFF;
+}
+
+#header
+{
+margin:0 auto;
+background:#0330ad url(c:\Users\Monic\Downloads\joshua-mayo-PNodyzJcccA-unsplash.jpg) 0 0 no-repeat;
+width:897px;
+height: 100px;
+}
+
+
+
+#navigation
+{
+margin:0 auto;
+width:896px;
+height:40px;
+background:#25b308;
+border:1px solid #205b7e;
+}
+#navigation ul
+{
+list-style:none;
+}
+#navigation ul li
+{
+color:#08c408;
+float:left;
+text-align:center;
+font:bold 15px/40px Arial, Helvetica, sans-serif;
+width:127px;
+border-right:1px solid #282828;
+}
+#navigation ul li a
+{
+text-decoration:none;
+display:block;
+color:#14ca14;
+}
+#navigation ul li a:hover
+{
+color:#1ec010;
+}
+#navigation ul li.last
+{
+border:none;
+float:left;
+}
+
+#content1
+{
+width:897px; 
+margin:0 auto; 
+background:url(c:\Users\Monic\Downloads\stephen-phillips-hostreviews-co-uk-em37kS8WJJQ-unsplash.jpg) 0 0 repeat-y;
+}
+#content1 h1
+{
+font:bold italic 22px/79px Arial, Helvetica, sans-serif;
+color:#ffffff;
+padding-left:30px;
+}
+#content1 p
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#b2b2b2;
+padding:5px 15px 0 15px;
+}
+.con
+{
+background:url(c:\Users\Monic\Downloads\stephen-phillips-hostreviews-co-uk-em37kS8WJJQ-unsplash.jpg) 0 0 repeat-y;
+width:290px;
+}
+
+#services
+{
+width:257px;
+padding:10px;
+}
+
+#welcome
+{
+width:287px;
+padding:10px;
+}
+
+#news
+{
+width:257px;
+padding:10px;
+}
+
+
