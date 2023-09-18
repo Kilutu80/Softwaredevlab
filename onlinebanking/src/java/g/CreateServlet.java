@@ -26,14 +26,12 @@ public class CreateServlet extends HttpServlet {
 		String amoun=request.getParameter("amount");
 		double amount=Double.parseDouble(amoun);
 		
-		String adderess=request.getParameter("adderess");
-		
 		String ph=request.getParameter("phone");
 		double phone=Double.parseDouble(ph);
 		//double mname=Double.parseDouble(num);
 		//String country=request.getParameter("country");
 		
-	    int status=RegisterUser.register(username, password, repassword, amount, adderess,phone);
+	    int status=RegisterUser.register(username, password, repassword, amount,phone);
 	   
 	    
 		if(status>0){
