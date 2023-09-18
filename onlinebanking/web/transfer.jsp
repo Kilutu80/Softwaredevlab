@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC>
 <html>
 <head>
 
@@ -21,8 +21,7 @@ var sds = document.getElementById("dum");
   
 
 <div id="header">
-	<h1>APANA - BANK<span class="style1"></span></h1>
-    <h2>ExtraOrdinary Service</h2>	
+	<h1>APANA - BANK<span class="style1"></span></h1>	
 </div>
 
 <div id="navigation">
