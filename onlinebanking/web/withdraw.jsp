@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC>
 <html>
 <head>
 
@@ -21,8 +21,7 @@ var sds = document.getElementById("dum");
   
 
 <div id="header">
-	<h1>APANA - BANK<span class="style1"></span></h1>
-    <h2>ExtraOrdinary Service</h2>	
+	<h1>APANA - BANK<span class="style1"></span></h1>	
 </div>
 
 <div id="navigation">
@@ -98,7 +97,7 @@ var sds = document.getElementById("dum");
 			}
 			
 			/*out.print("<table align='left' width='50%' border='4' bgcolor='###FFF'>");
-			out.print("<tr><th>ACCOUNT NO</th><th>USERNAME</th><th>AMOUNT</th><th>ADDRESS</th><th>PHONE</th></tr>");
+			out.print("<tr><th>ACCOUNT NO</th><th>USERNAME</th><th>AMOUNT</th><th>PHONE</th></tr>");
 			while(rs.next()){
 			    int accountno1=rs.getInt(1);
 				session.setAttribute("accountno",accountno1);
@@ -109,7 +108,6 @@ var sds = document.getElementById("dum");
 				out.print("<td>" + rs.getInt(1) + "</td>");
 				out.print("<td>" + rs.getString(2) + "</td>");
 				out.print("<td>" + rs.getInt(5) + "</td>");
-				out.print("<td>" + rs.getString(6) + "</td>");
 				out.print("<td>" + rs.getInt(7) + "</td>");
 				//out.print("<td><a href='DeleteServlet' >Delete</a></td>");
 			
