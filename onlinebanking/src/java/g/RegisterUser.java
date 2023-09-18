@@ -5,7 +5,7 @@ import g.GetCon;
 public class RegisterUser {
 static int status=0;
 //int accountno=1;
-public static int register(String username,String password,String repassword,double amount,String adderess,double phone){
+public static int register(String username,String password,String repassword,double amount,double phone){
 	//public static int register(String email,String password,String gender,String country,String name){
 
 	Connection con=GetCon.getCon();
@@ -18,7 +18,6 @@ public static int register(String username,String password,String repassword,dou
 		ps.setString(3,password);
 		ps.setString(4,repassword);
 		ps.setDouble(5,amount);
-		ps.setString(6,adderess);
 		ps.setDouble(7,phone);
 		
 		status=ps.executeUpdate();
