@@ -74,7 +74,7 @@ var sds = document.getElementById("dum");
 			ResultSet rs=ps.executeQuery();
 			
 			out.print("<table align='left' cellspacing='5' cellpadding='5'>");
-			out.print("<tr><th>ACCOUNT NO</th><th>USERNAME</th><th>AMOUNT</th><th>ADDRESS</th><th>PHONE</th></tr>");
+			out.print("<tr><th>ACCOUNT NO</th><th>USERNAME</th><th>AMOUNT</th><th>PHONE</th></tr>");
 			while(rs.next()){
 			    int accountno1=rs.getInt(1);
 				session.setAttribute("accountno",accountno1);
@@ -85,7 +85,6 @@ var sds = document.getElementById("dum");
 				out.print("<td>" + rs.getInt(1) + "</td>");
 				out.print("<td>" + rs.getString(2) + "</td>");
 				out.print("<td>" + rs.getInt(5) + "</td>");
-				out.print("<td>" + rs.getString(6) + "</td>");
 				out.print("<td>" + rs.getInt(7) + "</td>");
 				out.print("</tr>");
 			
