@@ -1,7 +1,4 @@
-
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC >
 <html>
 <head>
 <SCRIPT LANGUAGE="JavaScript">
@@ -135,35 +132,11 @@ var sds = document.getElementById("dum");
     	   </div>      
     </td>
     
-    <td width="299" valign="top">
-    	<div id="welcome" style="border-right:#666666 1px dotted;"><h1>Welcome</h1><br>
-    	    <center><img src="images/globe_10.gif" alt="business" width="196" height="106"></center><br>
-		    <p>Each people plan their site layouts depending upon their business type. Here comes a free designer template which provides you with a selection of different kinds of webdesign   starting from business template, fashion template, media template, Science template, Arts template and much more.</p>
-	    	
-	    </div>      
-    </td>
-            	
-    
-</tr></table>
-    
-<div id="footer_top">
-  <div id="footer_navigation">
-  
-
-  </div>
-  
-  <div id="footer_copyright" >
- 
-    	    <center><img  alt="business"  width="196" height="106"></center><br>
-		    <p>Each people plan their site layouts depending upon their business type. Here comes a free designer template which provides you with a selection of different kinds of webdesign   starting from business template, fashion template, media template, Science template, Arts template and much more.</p>
-	  
-  Copyright © Your Company Name</div>
-</div>
 
 <script type="text/javascript">
 document.onload = ctck();
 </script>
-</div>
+
 
 </body>
 </html>
