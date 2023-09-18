@@ -1,5 +1,4 @@
-
-<!DOCTYPE HTML PUBLIC/>
+<!DOCTYPE HTML PUBLIC>
 <html><!-- InstanceBegin template="/Templates/article_about_us.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
